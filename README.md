@@ -1,4 +1,4 @@
-Welcome! Below is the re-uploaded version of a website I worked on last January 2024 for a client.
+Welcome! Below is the re-uploaded version of an e-commerce website I worked on last January 2024 for a client.
 
 ## Click here to see the [live view](https://iamjmt.github.io/) of a website named NeonNexus. 
 
