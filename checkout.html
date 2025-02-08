@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NeonNexus</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/global.css" rel="stylesheet">
+	<link href="css/checkout.css" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+	<link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+  </head>
+  
+<body>
+<section id="top" class="cd-secondary-nav">
+  <div class="container container_1">
+   <nav class="navbar navbar-default">
+    <div class="navbar-header">
+		<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<a class="navbar-brand" href="index.html">Neo<span>N</span>exus</a>
+	</div>
+	
+	
+	<div class="collapse navbar-collapse js-navbar-collapse">
+		<ul class="nav navbar-nav nav_1">
+		    <li><a class="font_tag" href="index.html">Home</a></li>
+			<li class="dropdown">
+					  <a class="font_tag" href="#" data-toggle="dropdown" role="button" aria-expanded="false">Product<span class="glyphicon glyphicon-chevron-down pull-right icon_1"></span></a>
+					  <ul class="dropdown-menu drop_o" role="menu">
+					    <li><a href="product.html">Product</a></li>
+						<li><a class="border_none" href="detail.html">Product Detail</a></li>
+					  </ul>
+                   </li>
+			<li><a class="font_tag" href="contact.html">Contact Us</a></li>
+			<li class="dropdown mega-dropdown">
+				<a href="#" class="dropdown-toggle font_tag" data-toggle="dropdown">More <span class="glyphicon glyphicon-chevron-down pull-right icon_1"></span></a>
+				
+				<ul class="dropdown-menu mega-dropdown-menu row">
+					<li class="col-sm-3">
+						<ul>
+							<li class="dropdown-header">Popular in Shop</li>                            
+                            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+								<div class="carousel-inner">
+									<div class="item">
+										<a href="#"><img src="img/1.jpg" class="img-responsive" alt="product 1"></a>                                       
+									</div><!-- End Item -->
+									<div class="item active">
+										<a href="#"><img src="img/2.jpg" class="img-responsive" alt="product 2"></a>
+									</div><!-- End Item -->
+									<div class="item">
+										<a href="#"><img src="img/3.jpg" class="img-responsive" alt="product 3"></a>
+									</div><!-- End Item -->                                
+								  </div><!-- End Carousel Inner -->
+								</div><!-- /.carousel -->
+								<li class="divider"></li>
+                            <li><a href="#">View all Products <span class="glyphicon glyphicon-chevron-right pull-right"></span></a></li>
+						</ul>
+					</li>
+					<li class="col-sm-3">
+						<ul>
+							<li class="dropdown-header">Trending</li>
+							<li><a href="#">Robot Vacuum Cleaner</a></li>
+							<li><a href="#">Pro 6 Wireless Earphone</a></li>
+							<li><a href="#">Intel Core i7 Desktop Computer</a></li>
+							<li><a href="#">Samsung Smart Watch GS7 MAX</a></li>
+							<li class="divider"></li>
+						</ul>
+					</li>
+					<li class="col-sm-3">
+						<ul>
+							<li class="dropdown-header">Popular</li>
+							<li><a href="#">RealMe GT2 Pro</a></li>
+							<li><a href="#">GK70 RGB Gaming Keyboard And Mouse Set</a></li>
+							<li><a href="#">USB HUB 3.0 4-Port</a></li>
+							<li class="divider"></li>
+						</ul>
+					</li>
+					<li class="col-sm-3">
+						<ul>
+							<li class="dropdown-header">Latest</li>
+							<li><a href="#">100000mAh Powerbank</a></li>
+							<li><a href="#">Stylus Pen 2 in 1 Universal Drawing </a></li>
+							<li><a href="#">GOMO SIM with 30GB </a></li>							
+							<li class="divider"></li>
+                            <li class="dropdown-header">Newsletter</li>
+                            <form class="form" role="form">
+                              <div class="form-group">
+                                <label class="sr-only" for="email">Email address</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email">                                                              
+                              </div>
+                              <button type="submit" class="btn btn-primary btn-block">Log in</button>
+                            </form>                                                       
+						</ul>
+					</li>
+				</ul>
+				
+			</li>
+		</ul>
+		<ul class="nav navbar-nav navbar-right">
+			
+			<li class="dropdown">
+					<a class="font_tag_2" href="#" data-toggle="dropdown" role="button" aria-expanded="false"> <i class="fa fa-shopping-cart"></i> 2 Wishlist</a>
+					<ul class="dropdown-menu drop_cart" role="menu">
+						<li>
+						 <div class="drop_1i clearfix">
+						  <div class="col-sm-6 col-xs-6">
+						   <div class="drop_1il clearfix"><h4 class="mgt col_black">2 ITEMS</h4></div>
+						  </div>
+						  <div class="col-sm-6 col-xs-6">
+						   <div class="drop_1il text-right clearfix"><h4 class="mgt"><a href="cart.html">VIEW CART</a></h4></div>
+						  </div>
+						 </div>
+						 <div class="drop_1i1 clearfix">
+						  <div class="col-sm-6 col-xs-6">
+						   <div class="drop_1i1l clearfix"><h5 class="mgt bold"><a href="#">Pro 6 Wireless Earphone</a> <br> <span class="normal col_black mt_top">1x - ₱148</span></h5></div>
+						  </div>
+						  <div class="col-sm-4 col-xs-4">
+						   <div class="drop_1i1r clearfix"><a href="#"><img src="img/72.jpg" class="iw" alt="abc"></a></div>
+						  </div>
+						  <div class="col-sm-2 col-xs-2">
+						   <div class="drop_1i1l text-right clearfix"><h6 class="mgt bold"> <span><i class="fa fa-remove"></i></span></h6></div>
+						  </div>
+						 </div>
+						 <div class="drop_1i1 clearfix">
+						  <div class="col-sm-6 col-xs-6">
+						   <div class="drop_1i1l clearfix"><h5 class="mgt bold"><a href="#">Intel Core i7 Desktop Computer</a> <br> <span class="normal col_black mt_top">1x - ₱19, 218</span></h5></div>
+						  </div>
+						  <div class="col-sm-4 col-xs-4">
+						   <div class="drop_1i1r clearfix"><a href="#"><img src="img/73.jpg" class="iw" alt="abc"></a></div>
+						  </div>
+						  <div class="col-sm-2 col-xs-2">
+						   <div class="drop_1i1l text-right clearfix"><h6 class="mgt bold"> <span><i class="fa fa-remove"></i></span></h6></div>
+						  </div>
+						 </div>
+						 <div class="drop_1i2 clearfix">
+						  <div class="col-sm-6 col-xs-6">
+						   <div class="drop_1il clearfix"><h4 class="mgt col_black">TOTAL</h4></div>
+						  </div>
+						  <div class="col-sm-6 col-xs-6">
+						   <div class="drop_1il text-right clearfix"><h4 class="mgt col_black">₱19, 366</h4></div>
+						  </div>
+						 </div>
+						 <div class="drop_1i3 text-center clearfix">
+						  <div class="col-sm-12 col-xs-12">
+						   <h4><a class="button" href="checkout.html">CHECKOUT</a></h4>
+						  </div>
+						 </div>
+						</li>
+					  </ul>
+					</li>
+			
+		</ul>
+		
+	</div><!-- /.nav-collapse -->
+</nav>
+  </div>
+</section>
+
+<section id="header">
+ <div class="container">
+  <div class="row">
+   <div class="header_main clearfix">
+    <div class="col-sm-3">
+	 <div class="header_main_1 clearfix">
+	    <ul class="header_nav">
+		         <li>
+                    <a href="#" class="dropdown-toggle header_tag" data-toggle="dropdown">Buy With Categories <b class="caret"></b></a>
+                    <ul class="dropdown-menu multi-level drop_1">
+                        <li><a class="header_tag_1" href="#">Electronics</a></li>
+                        <li><a class="header_tag_1" href="#">Popular</a></li>
+						<li><a class="header_tag_1" href="#">Trending</a></li>
+						<li><a class="header_tag_1 border_none_1" href="#">More</a></li>
+                    </ul>
+                </li>
+		</ul>
+	 </div>
+	</div>
+	<div class="col-sm-6">
+	 <div class="header_main_2 clearfix">
+	   <div id="custom-search-input">
+                            <div class="input-group col-sm-12">
+                                <input type="text" class="  search-query form-control" placeholder="Search">
+                                <span class="input-group-btn">
+                                    <button class="btn btn-danger" type="button">
+                                        <span class=" glyphicon glyphicon-search"></span>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+	 </div>
+	</div>
+	<div class="col-sm-3">
+	 <div class="header_main_3 pull-right clearfix">
+	   <ul class="header_nav_1">
+		         <li><a href="cart.html" class="dropdown-toggle header_tag_2">Log in / Register</a></li>
+		</ul>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="center" class="clearfix checkout_pg">
+ <div class="container">
+  <div class="row">
+   <div class="checkout_1 clearfix">
+    <div class="col-sm-8">
+	  <div class="checkout_1l clearfix">
+	   <h2 class="mgt">Make Your Checkout Here</h2>
+	   <p>Please register in order to checkout more quickly.</p>
+	  </div>
+	  <div class="checkout_1l1 clearfix">
+       <div class="col-sm-6 space_left">
+	    <h5 class="col_black">First Name <span>*</span></h5>
+		<input class="form-control" type="text">
+	   </div>
+	   <div class="col-sm-6 space_left">
+	    <h5 class="col_black">Last Name <span>*</span></h5>
+		<input class="form-control" type="text">
+	   </div>
+	  </div>
+	  <div class="checkout_1l1 clearfix">
+       <div class="col-sm-6 space_left">
+	    <h5 class="col_black">Email Address <span>*</span></h5>
+		<input class="form-control" type="text">
+	   </div>
+	   <div class="col-sm-6 space_left">
+	    <h5 class="col_black">Phone Number <span>*</span></h5>
+		<input class="form-control" type="text">
+	   </div>
+	  </div>
+	  <div class="checkout_1l1 clearfix">
+       <div class="col-sm-6 space_left">
+	    <h5 class="col_black">Country <span>*</span></h5>
+		<select class="form-control">
+				 <option>Philippines</option>
+				 <option>US</option>
+				 <option>Russia</option>
+				 <option>England</option>
+				 <option>Nepal</option>
+			 </select>
+	   </div>
+	   <div class="col-sm-6 space_left">
+	    <h5 class="col_black">State / Division<span>*</span></h5>
+		<select class="form-control">
+				 <option>Manila</option>
+				 <option>MP</option>
+				 <option>Bihar</option>
+				 <option>Delhi</option>
+				 <option>UP</option>
+			 </select>
+	   </div>
+	  </div>
+	  <div class="checkout_1l1 clearfix">
+       <div class="col-sm-6 space_left">
+	    <h5 class="col_black">Address Line 1 <span>*</span></h5>
+		<input class="form-control" type="text">
+	   </div>
+	   <div class="col-sm-6 space_left">
+	    <h5 class="col_black">Address Line 2 <span>*</span></h5>
+		<input class="form-control" type="text">
+	   </div>
+	  </div>
+	  <div class="checkout_1l1 clearfix">
+       <div class="col-sm-6 space_left">
+	    <h5 class="col_black">Postal Code <span>*</span></h5>
+		<input class="form-control" type="text">
+	   </div>
+	   <div class="col-sm-6 space_left">
+	    <h5 class="col_black">Company <span>*</span></h5>
+		<select class="form-control">
+				 <option>Microsoft</option>
+				 <option>Xaiomi</option>
+				 <option>Apple</option>
+				 <option>Samsung</option>
+				 <option>Motorola</option>
+			 </select>
+	   </div>
+	  </div>
+	  <div class="checkout_1l clearfix">
+	   <p><input type="checkbox"> Create an account?</p>
+	  </div>
+	</div>
+	 <div class="col-sm-4">
+       <div class="checkout_1r clearfix">
+	     <h3 class="mgt">CART TOTALS</h3>
+	     <hr class="hr_1">
+		<h5 class="col_black">Sub Total <span class="pull-right">₱20, 965</span></h5>
+		<h5 class="col_black">(+) Shipping <span class="pull-right">₱80.00</span></h5>
+		<hr class="hr_2"> 
+		<h5 class="col_black">Total <span class="pull-right">₱21, 045</span></h5><br>
+		 <h3>PAYMENTS</h3>
+	     <hr class="hr_1">
+		 <p><input type="radio"> <span>Check Payments</span></p>
+		 <p><input type="radio"> <span>Cash On Delivery</span></p>
+		 <p><input type="radio"> <span>PayPal</span></p>
+		 <h6 class="mgt"><a class="button_1 mgt" href="#">PROCEED TO CHECKOUT</a></h6>
+	   </div>
+	  </div>
+   </div>
+  </div>
+ </div>	 
+</section>
+
+
+
+<section id="footer">
+ <div class="container">
+  <div class="row">
+   <div class="footer_1 clearfix">
+	<div class="col-sm-4">
+	 <div class="footer_1_inner_1 clearfix">
+		<p>Devices that Spark, Computers that Compute.</p>
+	</div>
+   </div>
+   <div class="col-sm-4">
+	<div class="footer_1_inner_2 clearfix">
+	 <div id="custom-search-input">
+						   <div class="input-group col-sm-12">
+							   <input type="text" class="  search-query form-control" placeholder="Search">
+							   <span class="input-group-btn">
+								   <button class="btn btn-danger" type="button">
+									   <span>Submit</span>
+								   </button>
+							   </span>
+						   </div>
+					   </div>
+	</div>
+   </div>
+   <div class="col-sm-4">
+	<div class="footer_1_inner text-center clearfix">
+	 <h2><i class="fa fa-envelope"></i> Newsletter</h2>
+	</div>
+   </div>
+  </div>
+ </div>
+</div>
+</section>
+
+<section id="footer_bottom">
+<div class="container">
+ <div class="row">
+  <div class="footer_bottom clearfix">
+   <div class="col-sm-3">
+	<div class="footer_bottom_inner clearfix">
+	 <h4>Know Us</h4>
+	 <p>We're dedicated to providing innovative products that inspire and perform seamlessly. Our curated selection, quality assurance, and commitment to staying ahead in tech trends make Neon Nexus more than a store; it's an experience. Join us on a journey of innovation, reliability, and inspiration. - JMT </p>
+		 <ul class="social-network social-circle nav_deal_1">
+						   <li><a href="https://www.facebook.com/josephinemay.mapalad.1/" class="icoRss" title="Rss"><i class="fa fa-facebook"></i></a></li>
+						   <li><a href="https://twitter.com/m3_oww" class="icoFacebook" title="Facebook"><i class="fa fa-twitter"></i></a></li>
+						   <li><a href="https://www.facebook.com/josephinemay.mapalad.1/" class="icoTwitter" title="Twitter"><i class="fa fa-linkedin"></i></a></li>
+						   <li><a href="https://www.facebook.com/josephinemay.mapalad.1/" class="icoGoogle" title="Google +"><i class="fa fa-rss"></i></a></li>
+						   <li><a href="https://www.facebook.com/josephinemay.mapalad.1/" class="icoLinkedin" title="Linkedin"><i class="fa fa-pinterest"></i></a></li>
+		</ul>
+	</div>
+   </div>
+   <div class="col-sm-3">
+	<div class="footer_bottom_inner clearfix">
+	 <h4>My Inbox</h4>
+		 <ul class="nav_footer">
+		   <li class="col-sm-12 col-xs-6 space_left"><a href="contact.html"><i class="fa fa-chevron-right"></i> Contact Link</a></li>
+		   <li class="col-sm-12 col-xs-6 space_left"><a href="https://www.facebook.com/josephinemay.mapalad.1/"><i class="fa fa-chevron-right"></i> Know Us</a></li>
+		   <li class="col-sm-12 col-xs-6 space_left"><a href="https://www.facebook.com/josephinemay.mapalad.1/"><i class="fa fa-chevron-right"></i> Facebook</a></li>
+		   <li class="col-sm-12 col-xs-6 space_left"><a href="#"><i class="fa fa-chevron-right"></i> Website</a></li>
+		</ul>
+	</div>
+   </div>
+   <div class="col-sm-3">
+	<div class="footer_bottom_inner clearfix">
+	 <h4>Inquiry</h4>
+		 <ul class="nav_footer">
+		   <li class="col-sm-12 col-xs-6 space_left"><a href="checkout.html"><i class="fa fa-chevron-right"></i> Payment</a></li>
+		   <li class="col-sm-12 col-xs-6 space_left"><a href="product.html"><i class="fa fa-chevron-right"></i> Shopping</a></li>
+		   <li class="col-sm-12 col-xs-6 space_left"><a href="checkout.html"><i class="fa fa-chevron-right"></i> Exchange & Return</a></li>
+		   <li class="col-sm-12 col-xs-6 space_left"><a href="#"><i class="fa fa-chevron-right"></i> Information</a></li>
+		   <li class="col-sm-12 col-xs-6 space_left"><a href="contact.html"><i class="fa fa-chevron-right"></i> Report Us</a></li>
+		</ul>
+	</div>
+   </div>
+   <div class="col-sm-3">
+	<div class="footer_bottom_inner clearfix">
+	 <h4>Address View</h4>
+	 <p><i class="fa fa-location-arrow"></i> Gumaca, Quezon, Philippines</p>
+	 <p><i class="fa fa-envelope-square"></i> (+63) 996-945-1615</p>
+	 <p><i class="fa fa-headphones"></i>mapaladjosephinemay@<br/>gmail.com</p>
+	</div>
+   </div>
+  </div>
+  <div class="footer_bottom_1 clearfix">
+   <div class="col-sm-7">
+	<div class="footer_bottom_1_left clearfix">
+	  <p> © 2024 NeonNexus. All Rights Reserved | Design by Josephine May Torculas</p>
+	</div>
+   </div>
+   <div class="col-sm-5">
+	<div class="footer_bottom_1_right text-right clearfix">
+	  <h2><a href="#">Neo<span>N</span>exus</a></h2>
+	 </div>
+	</div>
+   </div>
+  </div>
+ </div>
+</section>
+
+<div id="toTop" class="btn btn-info" style="display: block; background:#ffc400; color:#000; border:none;"><span class="fa fa-chevron-up"></span></div>
+
+
+<script>
+$(document).ready(function(){
+  $('body').append('<div id="toTop" class="btn btn-info"><span class="glyphicon glyphicon-chevron-up"></span> Back to Top</div>');
+	$(window).scroll(function () {
+		if ($(this).scrollTop() != 0) {
+			$('#toTop').fadeIn();
+		} else {
+			$('#toTop').fadeOut();
+		}
+	}); 
+$('#toTop').click(function(){
+	$("html, body").animate({ scrollTop: 0 }, 600);
+	return false;
+});
+});
+
+</script>
+
+<script>
+$(document).ready(function(){
+	/*****Fixed Menu******/
+	var secondaryNav = $('.cd-secondary-nav'),
+	   secondaryNavTopPosition = secondaryNav.offset().top;
+	   navbar_height = document.querySelector('.navbar').offsetHeight;
+	   
+		$(window).on('scroll', function(){
+		    if($(window).scrollTop() > secondaryNavTopPosition + navbar_height ) {
+				secondaryNav.addClass('is-fixed');	
+				document.body.style.paddingTop = navbar_height + 'px';
+				
+			} else {
+				secondaryNav.removeClass('is-fixed');
+				document.body.style.paddingTop = '0'
+			}
+		});	
+		
+});
+</script>
+</body>
+ 
+
+</html>
