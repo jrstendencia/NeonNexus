@@ -1,0 +1,100 @@
+
+/*********************contact****************/
+.contact_1{
+   margin-bottom:40px;
+   }
+.contact_3_left{
+  margin-bottom:20px; 
+   }
+.contact_3_left h4{
+ letter-spacing:1px;
+ font-weight:bold;
+ margin-bottom:10px;
+ font-size:22px;  
+   }
+.contact_3_left p{
+ font-size:18px;
+ color:#666;
+ letter-spacing:1px;
+ margin-top:10px; 
+  }
+.contact_3_right .comment_1{
+  margin-top:0;
+  }
+.contact_3_right .select_1{
+  min-height:100px;
+  }
+  
+.comment_1{
+  margin-top:30px;
+  background:#fffde9;
+  padding:30px;
+  border:1px solid #ffeded;
+  }
+.comment_1 .select_1{
+  min-height:230px;
+   font-size:16px;
+  }
+.comment_1 .text_1_box{
+ margin-top:10px;
+ width:40%;
+ height:40px;
+ font-size:16px; 
+  }
+.comment_1  p {
+margin-top:35px;
+margin-bottom:20px;
+font-size:20px;
+  }
+.comment_1  p a{
+    padding: 15px 45px 15px 45px;
+    color: #000;
+	background:#ffc400;
+  }
+.comment_1  p a:hover{
+  background:rgb(154,11,11);
+  color:#fff;
+  }
+.comment_1 .heading_1{
+  letter-spacing:1px;
+  margin-bottom:20px;
+  }
+.contact_3_left span {
+display: inline-block;
+background: #ffc400;
+color: #000;
+width: 45px;
+height: 45px;
+line-height: 47px;
+border-radius: 3px;
+text-align: center;
+font-size: 22px;
+margin-bottom:20px;
+}
+.contact_3_left span:hover {
+background: rgb(154,11,11);
+color:#fff;
+}
+/*********************contact_end****************/
+
+
+@media screen and (max-width : 767px){
+.contact_2 {
+ text-align:center; 
+  }
+.comment_1 .text_1_box{
+  width:100%;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+ }
+ @media (min-width:992px) and (max-width:1200px) {
+
+ }
+@media (min-width:1201px) and (max-width:1335px) {
+
+ }
+
+

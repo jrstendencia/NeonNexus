@@ -1,0 +1,88 @@
+
+/*********************checkout****************/
+.checkout_pg h5{
+font-size:20px;
+margin-top:15px;
+ }
+.checkout_pg h6{
+font-size:18px;
+margin-top:15px;
+ }
+.checkout_pg p{
+margin-top:15px;
+ }
+ .mgt{
+ margin-top:0; 
+  }
+.checkout_pg{
+padding-top:30px;
+padding-bottom:30px; 
+ }
+.checkout_1l1 .form-control{
+ background: #fff5f5; 
+ border:none;
+ box-shadow:none;
+ height:50px;
+ margin-top:15px;
+ border-radius:0;
+ font-size:16px;
+ }
+.checkout_1r .hr_1 {
+border-color: rgb(212,17,17);
+width: 15%;
+border-width: 2px;
+margin-left: 0;
+}
+.checkout_1r p span {
+margin-left:5px;
+}
+.checkout_1r .button_1 {
+display:block;
+text-align:center;
+}
+.checkout_1r{
+border:1px solid #ffeded;
+padding:25px 15px 30px 15px; 
+ }
+.checkout_1r .hr_2 {
+border-color: #ffeded;
+}
+.sub_h1 .input-group .form-control{
+height: 51px;
+ }
+/*********************checkout_end****************/
+
+
+@media screen and (max-width : 767px){
+#checkout{
+text-align:center;  
+ }
+.checkout_1r {
+margin-top:15px; 
+ }
+.checkout_1r .hr_1{
+margin-left:auto; 
+ }
+.checkout_1r h5{
+text-align:left;
+ }
+.checkout_1l h2{
+text-align:center; 
+ }
+.checkout_1l p{
+text-align:center; 
+ }
+.checkout_1r h3{
+text-align:center; 
+ }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+ }
+@media (min-width:992px) and (max-width:1200px) {
+
+  }
+@media (min-width:1201px) and (max-width:1240px) {
+
+ }
